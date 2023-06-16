@@ -1,0 +1,40 @@
+.Container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Center {
+  flex: 6;
+  background-color: #eee;
+  height: 80vh;
+  margin: 10px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Left {
+  flex: 4;
+  background-color: #eee444;
+  height: 80vh;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.item {
+  width: 600px;
+  height: 80px;
+  background-color: #eee444;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.items{
+list-style: none;
+}
